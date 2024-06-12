@@ -1,0 +1,24 @@
+
+server:
+  port: 4444
+  
+  
+spring:
+  application:
+    name: AUTH-SERVICE
+    
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/springsecurity
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: mahadev7041
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    
